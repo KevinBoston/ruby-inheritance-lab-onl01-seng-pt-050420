@@ -1,6 +1,7 @@
 class User 
   @@all = []
-  attr_accessor :name 
+  attr_accessor :first_name, :last_name
+  def initialize()
   
   
   
